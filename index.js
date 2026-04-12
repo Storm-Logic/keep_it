@@ -5,7 +5,7 @@ var path = require("path");
 
 var app = express();
 
-var port = process.env.PORT;
+var port = 4000;
 
 app.use(express.static(__dirname + '/src'));
 app.get("/", function(req, res) {
